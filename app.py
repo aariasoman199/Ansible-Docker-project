@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-  return "<h1><center>Hello from Flask in Docker + Ansible! Version3 </center></h1>"
+  return "<h1><center>Hello from Flask in Docker + Ansible! Version1 </center></h1>"
 
 if __name__ == "__main__":
     
